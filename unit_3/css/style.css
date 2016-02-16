@@ -1,8 +1,86 @@
 body {
-	background-color: #636363;
+	background-color: #333333;
 }
 
-h1, p {
-	color: gold;
+h1, h2, p, a, ul {
+	color: #FF0000;
 	font-family: 'Open Sans', sans-serif;
+	text-align: center;
 }
+
+h2, p, ul {
+	font-size: 32px;
+}
+
+ul {
+	font-size: 24px;
+}
+
+#title {
+	font-size: 64px;
+	padding-top: 48px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 48px;
+    padding-top: 48px;
+}
+
+div.container {
+   height: 10em;
+   position: relative;
+   display: block;
+}
+
+div.container p {
+	margin: 0;
+    position: absolute;
+    max-width: 600px;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+div.container2 {
+   height: 10em;
+   position: relative;
+   display: block;
+   padding-top: 50px;
+}
+
+div.container2 ul {
+	margin: 0;
+    position: absolute;
+    max-width: 600px;
+    text-align: center;
+    list-style-type: none;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.image { 
+   position: relative; 
+   width: 100%; 
+}
+
+h2 { 
+   position: absolute; 
+   text-align: left;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+#contact {
+	font-size: 24px;
+	display: block;
+    margin: 0 auto;
+    padding-top: 24px;
+}
+
