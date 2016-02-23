@@ -127,3 +127,51 @@ h2 {
     padding-top: 24px;
 }
 
+#two_column {
+  background-color: #ffb7cf;
+  border: 1px black solid;
+  padding: 20px;
+}
+
+#left {
+  background-color: #e582a2;
+  border: 1px black solid;
+  padding: 20px;
+  float: left;
+  width: 30%;
+}
+
+#right {
+  background-color: #e55b88;
+  border: 1px black solid;
+  padding: 20px;
+  float: right;
+  width: 62%
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
