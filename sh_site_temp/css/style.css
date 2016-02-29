@@ -1,46 +1,64 @@
 body {
-	background-color: #eeeeee;
-	font-family: Helvetica, sans-serif;
+	background-color: #f5f5f5;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
-	font-size: 24px;
-	font-weight: bold;
+	font-size: 20px;
+	font-weight: 700;
+  color: rgba(0, 0, 0, .58);
 }
 
 img  {
-	width: 36px;
+	width: 24px;
 }
 
 p {
 	font-size: 36px;
 	line-height: 1.5em;
+  color: rgba(0, 0, 0, .87);
 }
 
 
 #two_column {
   padding: 20px;
-  background-color: #FFE2B8;
-  border: 1px black solid;
+  background-color: #E0E0E0;
 }
 
 #left {
 	padding: 20px;
-  background-color: #ee7600;
-  border: 1px black solid;
   float: left;
   width: 30%;
 }
 
-#right {
-  padding: 20px;
-  background-color: #ee7600;
-  border: 1px black solid;
-  position: right;
-  float: right;
-  width: 30%
-  
+#right {   
+    padding: 20px;
+    width: 120px;
+    margin-left: auto; 
+    margin-right: auto;
+    float: right;
+
+     text-align: justify;
+    -ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
 }
+
+#right a {
+    vertical-align: top;
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+}
+
+.stretch {
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0
+}
+
 
 .clearfix:after {
   visibility: hidden;
@@ -53,33 +71,35 @@ p {
 
 #one_column {
   padding: 20px;
-  background-color: #FFE2B8;
-  border: 1px black solid;
   width: 100%;
 
 }
 
 #top {
 	padding: 20px;
-  background-color: #ee7600;
-  border: 1px black solid;
   max-width: 1024px;
  
 }
 
 #main {
 	padding: 20px;
-  background-color: #ee7600;
-  border: 1px black solid;
   max-width: 1024px;
   
 }
 
+#current_container {
+  font-size: 
+}
+
+#current {
+  color: rgba(0, 0, 0, .54);
+  font-size: 28px; 
+  font-weight: 700;
+}
+
 #temp {
 	padding: 20px;
-  background-color: #ee7600;
-  border: 1px black solid;
-  max-width: 1024px;
+  max-width: 700px;
   
 }
 
@@ -88,22 +108,18 @@ p {
 }
 
 #button_container {
-	padding: 20px;
-	background-color: #ee7600;
-	border: 1px black solid;
+	padding: 10px 40px;
 }
 
 #button {
-	padding: 20px;
+	padding: 15px 30px;
   background-color: #1D86FF;
-  width: 180px;
-  height: 25px;
   text-align: center;
   margin-top: 100px;
   box-shadow: 0 5px 30px -3px #777;
   border-radius: 8px;
   color: white;
-  font-size: 24px;
+  font-size: 18px;
   text-decoration: none;
 }
 
