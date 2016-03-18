@@ -6,36 +6,40 @@ body {
 }
 
 h1 {
-	font-size: 20px;
+	font-size: 1.5em;
 	font-weight: 700;
-  color: rgba(0, 0, 0, .58);
+  color: rgba(250, 250, 250, .70);
 }
 
 img  {
-	width: 24px;
+	width: 1.5em;
 }
 
 p {
-	font-size: 36px;
+	font-size: 2.5em;
 	line-height: 1.5em;
   color: rgba(0, 0, 0, .87);
 }
 
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
 
 #two_column {
-  padding: 20px;
-  background-color: #E0E0E0;
+  padding: 1.25em;
+  background-color: #424242;
 }
 
 #left {
-	padding: 20px;
+	padding: 1.25em;
   float: left;
   width: 30%;
 }
 
 #right {   
-    padding: 20px;
-    width: 120px;
+    padding: 1.25em;
+    width: 100px;
     margin-left: auto; 
     margin-right: auto;
     float: right;
@@ -70,56 +74,55 @@ p {
 }
 
 #one_column {
-  padding: 20px;
-  width: 100%;
+  padding: 1.25em;
+  margin: 0 auto;
 
 }
 
 #top {
-	padding: 20px;
-  max-width: 1024px;
+	padding: 1.25em;
+  
  
 }
 
 #main {
-	padding: 20px;
-  max-width: 1024px;
+	padding: 1.25em;
+  margin: 0 auto;
   
 }
 
 #current_container {
-  font-size: 
+  l
 }
 
 #current {
   color: rgba(0, 0, 0, .54);
-  font-size: 28px; 
+  font-size: .60em; 
   font-weight: 700;
 }
 
 #temp {
-	padding: 20px;
+	padding: 1.25em;
   max-width: 700px;
   
 }
 
 #temp p {
-	font-size: 18px;
+	font-size: 1em;
 }
 
 #button_container {
-	padding: 10px 40px;
+	padding: .25em 2.5em;
 }
 
 #button {
-	padding: 15px 30px;
+	padding: 1em 2em;
   background-color: #1D86FF;
   text-align: center;
-  margin-top: 100px;
   box-shadow: 0 5px 30px -3px #777;
   border-radius: 8px;
   color: white;
-  font-size: 18px;
+  font-size: 1.15em;
   text-decoration: none;
 }
 
@@ -133,4 +136,10 @@ p {
 	color: white;
 	background-color: #0076FF;
 	box-shadow: none;
+}
+
+
+#footer {
+  width: 100%;
+  height: 5em;
 }
