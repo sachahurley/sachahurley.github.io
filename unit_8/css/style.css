@@ -16,11 +16,14 @@ h2 {
   font-size: 1.5em;
   line-height: 1.5em;
   color: black;
-  position: absolute; 
+  position: absolute;
   text-align: left;
-  top: 2%;
-  left: 2%;
+  top: .5%;
+  left: .5%;
+  width: 14.5em;
   margin-right: -50%;
+  background-color: white;
+  padding: 1%;
   /*
   transform: translate(-50%, -50%)
   */
@@ -28,11 +31,11 @@ h2 {
 
 h3 {
 	font-weight: 400;
-	font-size: 24px;
+	font-size: 1.5em;
 }
 
 ul {
-	font-size: 24px;
+	font-size: 1.5em;
 	line-height: 1.5em;
 }
 
@@ -66,7 +69,7 @@ img {
 #header_left {
   padding: 1%;
   float: left;
-  width: 30%; 
+  width: 50%; 
 }
 
 #title {
@@ -89,12 +92,13 @@ img {
   padding: 2%;
   float: right;
   width: 30%;
+
 }
 
 #header_right h3 {
   text-align: right;
   float: left;
-  padding-left: 5%;
+  width: 33.33333%;
 }
 
 #top {
@@ -120,7 +124,7 @@ img {
   box-shadow: 0 5px 30px -3px #000;
   border-radius: 8px;
   color: black;
-  font-size: 24px;
+  font-size: 1.75em;
   text-decoration: none;
   display: inline-block;
   vertical-align: middle;
@@ -130,6 +134,7 @@ img {
   color: #f56565;
   background-color: black;
   box-shadow: none;
+  margin-bottom: 2px;
 }
 
 #button:active {
@@ -191,28 +196,6 @@ img {
 }
 
 
-/*
-div.container2 {
-   height: 10em;
-   position: relative;
-   display: block;
-   padding-top: 50px;
-}
-
-div.container2 ul {
-	margin: 0;
-    position: absolute;
-    max-width: 600px;
-    text-align: center;
-    list-style-type: none;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%)
-}
-
-*/
-
 
 /* --- MAP SECTION --- */
 
@@ -233,8 +216,8 @@ div.container2 ul {
 }
 */
 
-/* --- FOOTER --- */
 
+/* --- FOOTER --- */
 
 #footer_left {
   padding: 1%;
@@ -262,8 +245,6 @@ div.container2 ul {
   font-size: 2em;
 }
 
-
-
 #footer_right {
   padding: 1%;
   float: right;
@@ -276,25 +257,15 @@ div.container2 ul {
   font-size: 1.5em;
   text-align: left;
   vertical-align: top;
-  
 }
 
 #footer_right img {
   margin: 0;
-  padding-top: 5%;
+  padding-top: 10%;
   float: left;
   vertical-align: top;
+  width: 3em;
 }
-
-/*
-#footer_right a {
-
-}
-
-
-
- 
- */
 
  #left-social-box {
   margin-top: 3%;
@@ -308,6 +279,23 @@ div.container2 ul {
   float: left;
 }
 
+#bottom-bar {
+  width: 100%;
+  height: 4em;
+  background-color: #f56565;
+  line-height: 4em;
+  text-align: center;
+  margin-top: 4em;
+}
+
+#bottom-bar p {
+  font-size: 1em;
+  color: #333333;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal; 
+}
+
 .clearfix:after {
   visibility: hidden;
   display: block;
@@ -317,20 +305,253 @@ div.container2 ul {
   height: 0;
 }
 
-/*
-#footer_right p:nth-child(2) {
-  float: left;
-  padding-bottom: 1%;
+
+/* MEDIA QUERIES */
+
+/* LAPTOP */
+@media only screen and (max-width: 1024px) {
+
+    #header_right  {
+        width: 40%;
+        text-align: right;
+    }
+
+    #top p {
+      font-size: 3.5em;
+    }
+
+    #ingredient_container {
+      padding-top: 3%
+    }
+
+    .container p {
+      font-size: 2em;   
+    }
+
+    #three_column p {
+      font-size: 1.5em;
+    }
+
+    #footer_left p {
+      font-size: 1.25em;
+    }
+
+    #contact {
+      font-size: 1.25em;
+    }
+
+    #footer_right p {
+      font-size: 1.25em;
+    }
+
+    #footer_right img {
+       margin: 0;
+        padding-top: 10%;
+      float: left;
+      vertical-align: top;
+      width: 2.5em;
+    } 
+
 }
 
-#footer_right p:nth-child(3) {
-  float: left;
-  padding-bottom: 1%;
+/* TABLET VERTICAL */
+@media only screen and (max-width: 768px) {
+    #title {
+      font-size: 2em;
+    }
+
+    #header_icon {
+      width: 2.25em;
+    }
+
+    #header_right {
+      width: 43%;
+    }
+
+    #header_right h3 {
+      font-size: 1.25em;
+    }
+
+     #top p {
+      font-size: 2.5em;
+    }
+
+    #button {
+      font-size: 1.25em;
+    }
+
+    .container p {
+      font-size: 1.75em;
+      
+    }
+
+    #three_column p {
+      font-size: 1.25em;
+    }
+
+    h2 {
+      font-size: 1em;
+
+    }
 }
-*/
+
+/* LARGE MOBILE */
+@media only screen and (max-width: 425px) {
+    #header_left {
+      width: 100%;
+      display: block;
+      margin: 0 10% 0 13%;
+      text-align: center;
+    }
+
+    #header_right {
+     text-align: center;
+      width: 92%;
+     float: left;
+    }
+
+    #header_right h3 {
+      text-align: right;
+      float: left;
+      width: 33.33333%;
+    }
+
+    #top p {
+      font-size: 2em;
+      margin: 3% 0 5% 0;
+    }
+
+    #button_container {
+      margin-bottom: 5%;
+    }
+
+    #button {
+      font-size: 1em;
+    }
+
+    .container p {
+      font-size: 1.3em;
+      
+    }
+
+    #three_column {
+      margin-bottom: 5%;
+    }
+
+    #three_column img {
+      margin-bottom: 1em;
+    }
+
+    #three_column p {
+      font-size: 1em;
+    }
+
+    #two_column {
+      margin-top: 5%;
+    }
+
+    #two_column p {
+      font-size: 1em;
+    }
+
+    #footer_left {
+      width: 100%;
+    }
+
+    #contact {
+      font-size: 1em;
+    }
+
+    #footer_right {
+      width: 100%;
+      padding: 1%;
+      float: left;
+      display: block;
+      margin-top: 5%;
+      padding-left: 1%;
+    }
+
+    #footer_right img {
+      padding-top: 5%;
+    }
+
+    #bottom-bar {
+      margin-top: 2.5em;
+    }
+
+}
 
 
+/* MEDIUM MOBILE */
+@media only screen and (max-width: 375px) {
+    
+    #header_left {
+      margin-left: 7%;
+      margin-bottom: 3%;
+    }
 
+    #header_right {
+      width: 94%;
+    }
+
+    #top p {
+      font-size: 1.75em;
+    }
+
+    #button_container {
+      margin: 7% 0;
+    }
+
+    #button {
+          padding: 5% 6%;
+    }
+
+    #three_column p {
+      line-height: 1.35em;
+    }
+
+    #footer_left {
+      margin: 0 5%;
+    }
+
+    #footer_right {
+      margin: 5% 5%;
+    }
+
+    #bottom-bar {
+      margin-top: 2%;
+    }
+}
+
+/* SMALL MOBILE */
+@media only screen and (max-width: 320px) {
+
+  #header_left {
+    font-size: .8em;
+    margin-left: 10%;
+  }
+
+  #header_right {
+    font-size: .9em;
+  }
+
+  #top p {
+    font-size: 1.5em;
+  }
+
+  .container p {
+    font-size: 1.1em;
+  }
+
+  #three_column img {
+    width: 2.5em;
+  }
+
+  #three_column p {
+    font-size: .9em;
+  }
+
+}
 
 
 
