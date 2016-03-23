@@ -6,7 +6,7 @@ body {
 }
 
 h1 {
-	font-size: 1.5em;
+	font-size: 2em;
 	font-weight: 700;
   color: rgba(250, 250, 250, .70);
 }
@@ -39,7 +39,7 @@ p {
 
 #right {   
     padding: 1.25em;
-    width: 100px;
+    width: 7%;
     margin-left: auto; 
     margin-right: auto;
     float: right;
@@ -81,24 +81,37 @@ p {
 
 #top {
 	padding: 1.25em;
-  
- 
+}
+
+#top a {
+  border-bottom: 2px solid currentColor; 
+  text-decoration: none;
+}
+
+#top a:hover {
+  border-bottom: none;
 }
 
 #main {
 	padding: 1.25em;
   margin: 0 auto;
-  
+  display: block;
+}
+
+#current_span {
+  padding: 1.25em 1.25em .5em 1.25em;
+
 }
 
 #current_container {
-  l
+  padding: 0 1.25em 1.25em 1.25em;
 }
 
 #current {
   color: rgba(0, 0, 0, .54);
-  font-size: .60em; 
+  font-size: 1.5em; 
   font-weight: 700;
+ 
 }
 
 #temp {
@@ -108,7 +121,7 @@ p {
 }
 
 #temp p {
-	font-size: 1em;
+	font-size: 1.25em;
 }
 
 #button_container {
@@ -138,8 +151,117 @@ p {
 	box-shadow: none;
 }
 
-
 #footer {
-  width: 100%;
-  height: 5em;
+  padding: 1.25em;
+  
 }
+
+#footer_box {
+  padding: 3em 1.25em 1.25em 1.25em;
+}
+
+#footer_box p {
+  font-size: 1em;
+  color: rgba(0, 0, 0, .34);
+}
+
+/* MEDIA QUERIES */
+
+/* LAPTOP */
+@media only screen and (max-width: 1024px) {
+  #right {
+    width: 10%;
+  }
+}
+
+/* VERTICAL IPAD */
+@media only screen and (max-width: 768px) {
+  #right {
+    width: 14%;
+  }
+}
+
+/* L MOBILE */
+@media only screen and (max-width: 425px) {
+  h1 {
+    font-size: 1.5em;
+  }
+
+  #left {
+    width: 50%;
+  }
+
+  #right {
+    width: 27%;
+  }
+
+  #top, #main, #current_container {
+    font-size: .9em;
+  }
+
+  #current_span {
+    font-size: .75em;
+  }
+
+}
+
+
+/* M MOBILE */
+@media only screen and (max-width: 375px) {
+  
+  #left {
+    width: 40%;
+  }
+
+  #right {
+    width: 40%;
+  }
+}
+
+/* S MOBILE */
+@media only screen and (max-width: 320px) {
+  #two_column, #one_column, #footer {
+    padding: .5em;
+  }
+
+  #left {
+    width: 100%;
+  }
+
+  #right {
+    width: 100%;
+    float: none;
+    text-align: left;
+  }
+
+  #right a {
+    padding-right: 5%;
+  }
+
+ #top, #main, #current_container {
+    font-size: .7em;
+  }
+
+  #current_span {
+    font-size: .7em;
+  }
+
+  #temp {
+    padding:  1em;
+  }
+
+  #temp p {
+    font-size:  1em;
+  }
+  #button_container {
+    padding-left: 1.5em;
+    padding-top: 1em;
+  }
+
+  #footer_box p {
+    font-size: .9em;
+  }
+
+
+}
+
