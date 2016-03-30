@@ -6,9 +6,9 @@ body {
 }
 
 h1 {
-	font-size: 2em;
+	font-size: 1.75em;
 	font-weight: 700;
-  color: rgba(250, 250, 250, .90);
+  color: rgba(250, 250, 250, .99 );
 }
 
 img  {
@@ -27,19 +27,19 @@ p {
 }
 
 #two_column {
-  padding: 1.25em 25em;
-  background-color: #424242;
+  padding: 1.25em 45em;
+  background-color: #00695C;
 }
 
 #left {
 	padding: 1.25em;
   float: left;
-  width: 30%;
+  width: 15em;
 }
 
 #right {   
     padding: 1.25em;
-    width: 7%;
+    width: 7em;
     margin-left: auto; 
     margin-right: auto;
     float: right;
@@ -74,7 +74,7 @@ p {
 }
 
 #one_column {
-  padding: 1.25em 25em;
+  padding: 5em 45em 1.25em 45em;
   margin: 0 auto;
 
 }
@@ -125,14 +125,14 @@ p {
 }
 
 #button_container {
-	padding: .25em 26em;
+	padding: .25em 46.25em;
 }
 
 #button {
 	padding: 1em 2em;
   background-color: #1D86FF;
   text-align: center;
-  box-shadow: 0 5px 30px -3px #777;
+  box-shadow: 0 3px 10px -3px #777;
   border-radius: 8px;
   color: white;
   font-size: 1.15em;
@@ -157,7 +157,7 @@ p {
 }
 
 #footer_box {
-  padding: 3em 1.25em 1.25em 25em;
+  padding: 3em 45em 1.25em 45em;
 }
 
 #footer_box p {
@@ -166,31 +166,6 @@ p {
 }
 
 /* MEDIA QUERIES */
-
-/* ULTRAWIDE 4k */
-@media only screen and (max-width: 2560px) {
-  #two_column {
-    padding: 1.25em 45em;
-  }
-
-  #right {
-    width: 7em;
-  }
-
-  #one_column {
-    padding: 5em 45em 1.25em 45em;
-  }
-
-  #button_container {
-      padding: .25em 46.25em;
-  }
-
-  #footer_box {
-      padding: 3em 45em 1.25em 45em;
-  }
-
-}
-
 
 
 /* Wide Screen */
