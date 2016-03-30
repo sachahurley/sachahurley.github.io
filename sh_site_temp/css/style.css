@@ -167,6 +167,56 @@ p {
 
 /* MEDIA QUERIES */
 
+/* ULTRAWIDE 4k */
+@media only screen and (max-width: 2560px) {
+  #two_column {
+    padding: 1.25em 45em;
+  }
+
+  #right {
+    width: 7em;
+  }
+
+  #one_column {
+    padding: 5em 45em 1.25em 45em;
+  }
+
+  #button_container {
+      padding: .25em 46.25em;
+  }
+
+  #footer_box {
+      padding: 3em 45em 1.25em 45em;
+  }
+
+}
+
+
+
+/* Wide Screen */
+@media only screen and (max-width: 1880px) {
+  #two_column {
+    padding: 1.25em 25em;
+  }
+
+  #right {
+    width: 7em;
+  }
+
+  #one_column {
+      padding: 5em 25em 1.25em 25em;
+  }
+
+  #button_container {
+      padding: .25em 26.25em;
+  }
+
+  #footer_box {
+      padding: 3em 45em 1.25em 25em;
+  }
+
+}
+
 /* LARGE LAPTOP */
 @media only screen and (max-width: 1440px) {
   #two_column, #one_column, #footer_box {
@@ -339,4 +389,7 @@ p {
 
 
 }
+
+
+
 
