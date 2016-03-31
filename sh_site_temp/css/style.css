@@ -27,8 +27,10 @@ p {
 }
 
 #two_column {
-  padding: 1.25em 45em;
+  padding: 1.25em 51.9em;
   background-color: #00695C;
+  max-width: 900px;
+  margin: 0 auto;
 }
 
 #left {
@@ -76,6 +78,7 @@ p {
 #one_column {
   padding: 5em 45em 1.25em 45em;
   margin: 0 auto;
+  max-width: 900px;
 
 }
 
@@ -125,7 +128,7 @@ p {
 }
 
 #button_container {
-	padding: .25em 46.25em;
+	   padding: .25em 53.25em
 }
 
 #button {
@@ -157,7 +160,8 @@ p {
 }
 
 #footer_box {
-  padding: 3em 45em 1.25em 45em;
+  padding: 3em 52em 1.25em;
+  max-width: 900px;
 }
 
 #footer_box p {
@@ -167,8 +171,9 @@ p {
 
 /* MEDIA QUERIES */
 
-
 /* Wide Screen */
+
+/*
 @media only screen and (max-width: 1880px) {
   #two_column {
     padding: 1.25em 25em;
@@ -191,7 +196,7 @@ p {
   }
 
 }
-
+*/
 /* LARGE LAPTOP */
 @media only screen and (max-width: 1440px) {
   #two_column, #one_column, #footer_box {
